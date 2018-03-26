@@ -151,7 +151,7 @@ export default {
     handleClick() {
       if (!this.disabled) {
         this.$refs.input.value = null;
-        this.$refs.input.click();
+        // this.$refs.input.click();
       }
     },
     handleKeydown(e) {
